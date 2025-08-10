@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistica - Input Group Data</title>
+    
+    <link rel="stylesheet" href="../CSS files/frontpage.css">
+    <link rel="stylesheet" href="../CSS files/inputDATA.css">
+    <link rel="stylesheet" href="../CSS files/InputgroupData.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Protest+Revolution&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../frontpage.html">
+                <img src="../MEDIA files/logo2.png" alt="Statistica">
+                <h1>Statistica</h1>
+                <h2>- Your Personal Solving Assistant.</h2>
+            </a> 
+        </div>
+
+        <div class="userAccount">
+            <div class="login">
+                <a href="#">
+                    <h3>Log In</h3>
+                </a>
+            </div>
+            
+            <div class="signup">
+                <a href="#">
+                    <h3>Sign Up</h3> 
+                </a>   
+            </div>
+        </div>
+    </header>
+
+    <div class="navbar">
+            <div><a href="../frontpage.html">HOME</a></div>
+            <div><a href="#">ABOUT US</a></div>
+            <div><a href="../HTML files/contactUs.html">CONTACT US</a></div>
+    </div>
+
+    <section id="showcase">
+        <div class="container">    
+            <h1>Mean Calculation</h1>
+                
+            <!--Mean-form-->
+            <form id="mean-form">
+                <label for="row">Enter number of rows: </label>
+                <input type="number" id="row" name="row" required>
+                <button type="submit">Submit</button>
+            </form>
+
+            <div id="data-table" style="display: none;">
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Row</th>
+                            <th>Lower bound</th>
+                            <th>Upper bound</th>
+                            <th>Frequency</th>
+                            <th>x</th>
+                            <th>f*x</th>
+                            <th>f*logx</th>
+                            <th>f/x</th>
+                        </tr>
+                    </thead>
+                    <tfoot></tfoot>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div id="result"></div>
+        </div>               
+    </section>  
+  
+    <div class="navbar">
+        <div class="credit">
+            <h5>All credit has been reserved by Badhan Roy Amit</h5>
+        </div>
+    </div>
+  
+    <footer>
+        <h1>Our Sponsors</h1>
+        <div class="sponsors">
+            <a href="https://www.bkash.com/" target="_blank">
+                <img src="../MEDIA files/bkash logo.png" alt="Bkash" class="Bkash">
+            </a>
+
+            <a href="https://www.portcity.edu.bd/" target="_blank">
+                <img src="../MEDIA files/pciu.png" alt="PCIU" class="PCIU">
+            </a>
+            <a href="https://10minuteschool.com/en/" target="_blank">
+                <img src="../MEDIA files/10MSlogo.png" alt="10MS" class="tenMS">
+            </a>       
+        </div>
+        <br><p>NB: This is for demonstration purposes only; no official sponsorship contract has been established.</p><br>
+    </footer>
+
+    <script src="../JS files/GroupDataCalc.js"></script>    
+    <script src="../JS files/SupportTuorial.js"></script>    
+
+</body>
+</html>

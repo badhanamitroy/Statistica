@@ -1,0 +1,6 @@
+#showcase{
+    background:linear-gradient(to right, rgba(245, 248, 249, 0.974),  rgba(241, 244, 245, 0.492)), url(../inputData.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

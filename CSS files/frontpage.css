@@ -1,0 +1,301 @@
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    cursor: default;
+}
+a{
+    text-decoration: none;
+}
+header{
+    top: 0;
+    background-color: rgb(1, 6, 53);
+    min-height: 10vh;
+    min-width: 100%;
+    display: flex;
+}
+
+.logo a{
+    display: flex;   
+}
+.logo img{
+    width: 100px; 
+    height: 100px;
+    padding: 10px 10px 10px 10px; 
+}
+
+.logo h1{
+    color: rgb(218, 250, 5); 
+    font-family: Protest Revolution;
+    font-size: 37.8px;
+    padding: 24px 10px 15px 10px;
+}
+
+.logo h2{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 45px 0px 16px 0px;
+}
+
+header h3{
+    font-family: ADLaM Display;
+    color: aliceblue;
+    margin: 10px;
+}
+.userAccount{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: flex-end;
+    align-content: center;
+    margin: auto 50px auto auto;
+}
+
+.navbar {
+    top: 10vh;
+    background-color: orange;
+    display: flex;
+    font-family: ADLaM Display;
+    padding: 8px;
+    font-weight: bold;  
+    justify-content: center;
+    font-size: large;
+    min-width: 100%;
+}
+.navbar div a{
+    position: relative;
+    margin: auto 52px auto auto; 
+    color:  rgb(1, 6, 53); 
+    letter-spacing: 3.2px;
+}
+.navbar div a:after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(1, 6, 53);
+    transition: 0.3s;
+}
+.navbar div a:hover:after{
+    width: 100%;
+}
+
+#showcase{
+    background:linear-gradient(to right, rgba(245, 248, 249, 0.974),  rgba(241, 244, 245, 0.492)), url(../bg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#showcase .title{
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+#showcase .title h1{
+    color: black;
+    font-family: Protest Revolution;
+    font-size: 120px;
+    display: block;
+}
+#showcase h2{
+    justify-content: center;
+    padding-top: 10px;
+    display: flex;
+    color: brown;
+    font-family: ADLaM Display;
+    font-weight: bold;
+    font-size: 30px;
+}
+#showcase .underline{
+    max-width: 65vw;
+    min-height: 10px;
+    background-color: orange;
+    display: block;
+    margin: 10px auto 20px auto;
+}
+#showcase .content{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+#showcase .content .description{
+    justify-content: center;
+    display: flex;   
+}
+#showcase .content .description p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+#showcase .content .ask{
+    background-color: rgba(255, 235, 205, 0.742);
+    max-width: 65vw;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 0.5px 10px 40px rgba(45, 43, 43, 0.647);
+}
+#showcase .content .ask h2{
+text-align: center;
+padding: 10px;
+}
+#showcase .content .AM, .HM, .PCTL, .mode{
+    background-color: rgba(153, 64, 236, 0.622);
+    max-width: 40vw;
+    margin:20px auto 20px 0 ; 
+    border-radius: 10px 60px 60px 10px ; 
+    box-shadow: 10px 10px 10px rgba(65, 3, 123, 0.694);
+}
+#showcase .content .AM :hover, .HM :hover, .PCTL :hover, .mode :hover{
+    background-color: rgba(130, 2, 251, 0.622);
+    max-width: 40vw;
+    margin:20px auto 20px 0 ; 
+    border-radius: 10px 60px 60px 10px ; 
+    box-shadow: 10px 10px 10px rgba(25, 25, 25, 0.694);
+}
+
+#showcase .content .GM, .QRTL, .DCL{
+    background-color: rgba(121, 245, 152, 0.635);
+    max-width: 40vw;
+    margin:20px 0 20px auto; 
+    border-radius: 60px 10px 10px 60px ; 
+    box-shadow: -10px 10px 10px  rgba(1, 80, 21, 0.852);   
+}
+#showcase .content .MDN{
+    background-color: rgba(121, 245, 152, 0.635);
+    max-width: 40vw;
+    margin:20px 0 60px auto; 
+    border-radius: 60px 10px 10px 60px ;  
+    box-shadow: -10px 10px 10px  rgba(1, 80, 21, 0.852);   
+}
+#showcase .content .GM :hover, .QRTL :hover, .DCL :hover, .MDN :hover{
+    background-color: rgba(6, 245, 66, 0.698);
+    max-width: 40vw;
+    margin:20px 0 20px auto; 
+    border-radius: 60px 10px 10px 60px ; 
+    box-shadow: -10px 10px 10px  rgba(37, 37, 37, 0.852);   
+}
+#showcase .content .AM h2{
+    justify-content: flex-start;
+    color: aliceblue;
+    padding: 20px;
+}
+#showcase .content .HM h2{
+    justify-content: flex-start;
+    color: aliceblue;
+    padding: 20px;
+}
+#showcase .content .PCTL h2{
+    justify-content: flex-start;
+    color: aliceblue;
+    padding: 20px;
+}
+#showcase .content .mode h2{
+    justify-content: flex-start;
+    color: aliceblue;
+    padding: 20px;
+}
+#showcase .content .GM h2 {
+    justify-content: flex-end;
+    padding: 20px;
+    color: black;
+}
+#showcase .content .QRTL h2 {
+    justify-content: flex-end;
+    padding: 20px;
+    color: black;
+}
+#showcase .content .DCL h2 {
+    justify-content: flex-end;
+    padding: 20px;
+    color: black;
+}
+#showcase .content .MDN h2 {
+    justify-content: flex-end;
+    padding: 20px;
+    color: black;
+}
+.bottomline{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.help button{
+    background-color: aqua;
+    width: fit-content;
+    position: fixed;
+    top: 47.5vh;
+    left: 0;
+    right: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    height: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.help button:hover{
+    background-color: aqua;
+    box-shadow: -10px 10px 10px  rgba(0, 29, 34, 0.852);
+    width: fit-content;
+    position: fixed;
+    top: 47.5vh;
+    left: 0;
+    right: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px;
+    height: 110px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: rgba(95, 118, 141, 0.663);
+    min-height: 10vh;
+    min-width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer h1{
+    color: rgb(2, 5, 69); 
+    margin-bottom: 24px;
+    padding-top: 16px; 
+}
+footer .sponsors{
+    padding-top: 10px;
+    max-width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+footer .sponsors .Bkash{
+    width: 90px;
+    height: 45px;
+}
+footer .sponsors .PCIU{
+    width: 57px;
+    height: 72px;
+}
+footer .sponsors .tenMS{
+    width: 100px;
+    height: 40px;
+}
+
+
+

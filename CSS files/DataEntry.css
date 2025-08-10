@@ -1,0 +1,97 @@
+#showcase{
+    background:linear-gradient(to right, rgba(245, 248, 249, 0.974),  rgba(241, 244, 245, 0.492)), url(../DataEntryBG.jpg);
+    min-height: 116vh;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card a{
+    color: rgb(0, 8, 15);
+    font-family: ADLaM display;
+    font-weight: bold;
+    font-size: 30px;    
+}
+
+.card .left,.card .right{
+    border-width: 10px;
+    border-color:black;
+    margin-top: 25px;
+    width: 300px;
+    height: 170px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    transition: color 0.4s linear;
+    position: relative;
+}
+.left:hover, .right:hover{
+    color: rgb(1, 6, 53);
+    z-index: 0;
+}
+
+.left::before, .right::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0.5px 10px 40px rgba(45, 43, 43, 0.647);
+    border-radius: 20px;
+    z-index: -1;
+    transition: transform 1s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+.left::before{
+    background-color: #03f9249c;
+    transform: scaleX(0);
+}
+.left:hover::before{
+    transform: scaleX(1);
+}
+.right::before{
+    background-color: #0397f99c;
+    transform: scaleX(0);
+}
+.right:hover::before{
+    transform: scaleX(1);
+}
+
+
+
+/*details section*/
+
+#showcase .content .details{
+    flex-direction: column;
+    float: left;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+#showcase .content .details .underline{
+    max-width: 90vw;
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#showcase .content .details .title{
+display: block;
+font-size: 30px;
+font-weight: bold;
+font-family: ADLaM display;
+color: darkblue;
+}
+#showcase .content .details p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #ffffffa4;
+    padding: 10px;
+}
+

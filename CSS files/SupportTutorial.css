@@ -1,0 +1,49 @@
+#showcase{
+    background:linear-gradient(to right, rgba(245, 248, 249, 0.974),  rgba(241, 244, 245, 0.492)), url(../Support.jpg);
+    min-height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    background-color: rgba(153, 64, 236, 0.622);
+    max-width: 40vw;
+    margin:20px auto 20px 0 ; 
+    border-radius: 10px 60px 60px 10px ; 
+    box-shadow: 10px 10px 10px rgba(65, 3, 123, 0.694); 
+    padding: 20px; 
+    font-size: 24px;
+    color: rgb(1, 32, 58);
+    font-weight: bold;
+    cursor: pointer;
+    font-family: ADLaM display;
+}
+
+ul li:hover{
+    background-color: rgba(129, 3, 247, 0.622);
+    max-width: 40vw;
+    margin:20px auto 20px 0 ; 
+    border-radius: 10px 60px 60px 10px ; 
+    box-shadow: 10px 10px 10px rgba(44, 1, 84, 0.694); 
+    padding: 20px; 
+    font-size: 25px;
+    color: rgb(251, 251, 251);
+    font-weight: bold;
+}
+
+ul #AMtut, #GMtut, #HMtut, #Qtut, #Ptut, #Dtut, #MODtut, #MedTut {
+    display: none;
+
+}
+
+ul iframe{
+    margin-left: 20px;
+}

@@ -1,0 +1,143 @@
+
+#showcase{
+    background:linear-gradient(to right, rgba(24, 24, 24, 0.816),  rgba(56, 57, 57, 0.256)), url(../BadhanRoyAmit.jpg);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#showcase .container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-top: 80px ;
+}
+#showcase .container h1{
+    color: yellow;
+    font-family: ADLaM display;
+    text-align: center;
+    font-size: 60px;
+}
+#showcase .container .content{
+    max-width: 60vw;
+    margin: 0 auto;
+    padding-top: 40px ;
+}
+#showcase .container .content .bg{
+    background-color: rgba(120, 121, 121, 0.499);
+    width: 60vw;
+    margin: 10px auto;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-radius: 45px 45px 0 0;
+}
+#showcase .container .content form{
+    margin: 0 auto;
+    padding: 30px 5px -1px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#showcase .container .content form input{
+    width: 40vw;
+    height: 6vh;
+    background-color: rgb(243, 207, 163);
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+#showcase .container .content form label{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;   
+}
+#showcase .container .content form textarea {
+    width: 40vw;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: rgb(243, 207, 163);
+    resize: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#showcase .container .content #submit{
+    width: 110px;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    padding: 10px ;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 40px auto;
+    background-color: blue;
+    cursor: pointer;
+}
+section h1{
+    text-align: center;
+    font-size: 40px;
+    }
+section .underline{
+    background-color: orange;
+    height: 8px;
+    width: 50vw;
+    margin: 10px auto 40px auto;
+}
+
+.ContactCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 80vw;
+    margin: 20px auto;
+}
+.ContactCards .Card{
+    background-color:rgb(243, 207, 163);
+    flex-wrap: wrap;
+    width: 200px;
+    min-height: 18vh;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey;
+    color: rgb(4, 4, 60);
+    font-size: 20px;
+    font-family: ADLaM display;
+}
+.ContactCards .Card i{
+    font-size: 40px;
+    color: rgb(1, 1, 59);
+}
+.ContactCards .Card h1{
+    font-size: 22px;
+}
+.ContactCards .Card a h6{
+    text-decoration: none;
+    color: rgb(11, 11, 128);
+}
+
+#Whatsapp i:hover{
+    color: green;
+    font-weight: bold;
+}
+#LN i:hover{
+    color: rgb(62, 49, 249); 
+    font-weight: bold;
+}
+#fb i:hover{
+    color:blue; 
+    font-weight: bolder;
+}
+#email i:hover{
+    color:rgb(255, 136, 0);  
+    font-weight: bold;
+}
